@@ -15,7 +15,7 @@
 		"react-dom": "^18.2.0",
 		"react-router-dom": "^6.7.0"
 	},
-	"homepage": "https://bac-dam-1991.github.io/weather-app-vite/",
+	"homepage": "https://bac-dam-1991.github.io/weather-app/",
 	"devDependencies": {
 		"rimraf": "^4.1.1",
 		"@types/react": "^18.0.26",
