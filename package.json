@@ -1,0 +1,27 @@
+{
+	"name": "weather-app",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"predeploy": "rimraf build && yarn build",
+		"deploy": "gh-pages -d build"
+	},
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-router-dom": "^6.7.0"
+	},
+	"homepage": "https://bac-dam-1991.github.io/weather-app-vite/",
+	"devDependencies": {
+		"rimraf": "^4.1.1",
+		"@types/react": "^18.0.26",
+		"@types/react-dom": "^18.0.9",
+		"@vitejs/plugin-react": "^3.0.0",
+		"gh-pages": "^5.0.0",
+		"vite": "^4.0.0"
+	}
+}
