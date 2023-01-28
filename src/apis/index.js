@@ -1,6 +1,6 @@
 const apikey = '9TViq3q1Hhpv1Hbhvso2ZwNq7m4n3fvH';
 // const baseUrl = 'https://302f8f6c-8bf1-4870-91ea-f92042e4e483.mock.pstmn.io';
-const baseUrl = 'http://dataservice.accuweather.com';
+const baseUrl = 'https://dataservice.accuweather.com';
 
 const fetchWrapper = async ({ url, params }) => {
 	const fullUrl = `${url}?${params.toString()}`;

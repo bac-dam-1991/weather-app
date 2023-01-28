@@ -8,7 +8,7 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"predeploy": "rimraf build && yarn build",
-		"deploy": "gh-pages -d build"
+		"deploy": "gh-pages -d dist"
 	},
 	"dependencies": {
 		"react": "^18.2.0",
