@@ -12,7 +12,8 @@ const fetchWrapper = async ({ url, params }) => {
 export const getForecast = async (locationKey) => {
 	const params = new URLSearchParams({ apikey, metric: 'true' });
 	const url = `${baseUrl}/forecasts/v1/daily/5day/${locationKey}`;
-	return await fetchWrapper({ url, params });
+	const response = await fetchWrapper({ url, params });
+	return response.DailyForecasts;
 };
 
 export const searchLocation = async (q) => {
